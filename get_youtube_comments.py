@@ -33,7 +33,7 @@ channelVideoCounts = []
 # tab of
 # https://cloud.google.com/console
 # Please ensure that you have enabled the YouTube Data API for your project.
-DEVELOPER_KEY = "AIzaSyC1WzN-xlE8nWim1opEk-NBd8gqSy9WSWs"
+DEVELOPER_KEY = "put your key here"
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 
