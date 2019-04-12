@@ -44,8 +44,8 @@ with open(file) as input:
 
     
         #if statement to check if theres more than 1 comment
-        #if thereis more than one, iterate code to go through multiple comments
-        
+        #if ther eis more than one, iterate code to go through multiple comments
+        #datePattern =
         if "comment" in line:
             output = commentPattern.search(line)
             idOutput = idPattern.search(line)
@@ -63,6 +63,14 @@ with open(file) as input:
             channelViewCountOutput = channelViewCountPattern.search(line)
             channelCommentCountOutput = channelCommentCountPattern.search(line)
             channelVideoCountOutput = channelVideoCountPattern.search(line)
+
+            
+#            testing
+#            print(11111111111111111)
+#            print(output.group(1))
+#            print(idOutput.group(1))
+#            print()
+#            print(11111111111111111)
             
             videoComments = [output.group(1)]
             
